@@ -1,0 +1,52 @@
+{
+  "name": "il2planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Jason Kent",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "clean-css": "^3.4.12",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-import-resolver-node": "^0.3.3",
+    "eslint-import-resolver-webpack": "^0.12.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-no-storage": "^1.0.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.1.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "ol": "^6.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "test": "",
+    "lint": "npx eslint",
+    "develop": "NODE_ENV=development webpack serve --open --hot",
+    "start": "NODE_ENV=production webpack && webpack serve"
+  }
+}
